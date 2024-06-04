@@ -16,14 +16,13 @@ Export the openai api key with `export OPENAI_API_KEY=your_api_key`
 
 Test it with : `python src/1_call_model.py`
 
-
 ## Semantic search - RAG
 
 ### Read data from files, create embeddings, Store them in postgresql
 
 Test it with : `python src/2_create_vector_store.py`
 
-### Query them
+### Make a similarity search with them
 
 Test it with : `python src/3_search.py`
 

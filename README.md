@@ -30,7 +30,9 @@ Test it with : `python src/3_search.py`
 
 ### Create a tool - define a function
 
-### Use a tool with OpenAI - send your function definition to openai
+See `src/tools.py`
 
-### Call the function with the answer of OpenAI
+### Use a tool with OpenAI - Send your function definition to openai - Call the function to get your result
+
+Test it with : `python src/4_function_calling.py`
 

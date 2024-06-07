@@ -21,9 +21,12 @@ Test it with : `python src/1_call_model.py`
 ## Launch service
 
 `docker compose -f docker-compose-pgvector.yml up`
-Beware if you already have docker running you might have to change the port in `docker-compose-pgvector.yml`
+Beware if you already have postgres running you might have to change the port in `docker-compose-pgvector.yml`
+
 `5432:5432` -> `5433:5432`
+
 `2_create_vector_store.py` : set port to `5433`
+
 `3_search.py` : set port to `5433`
 
 ## Semantic search - RAG
